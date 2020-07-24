@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
-
+import Dinner from './dinner.js';
 function App() {
   return (
-    <div >
-     <h1>061 react app</h1>
-     <p>this is me asad</p>
-    </div>
+    <div className='App'>
+    {/* <Dinner></Dinner> */}
+    <Dinner dishName='Nihaari' sweetDish='Kheer' />
+    <hr />
+    <Dinner dishName='Biryani' sweetDish='Jaleebi' />
+    <hr />
+    <Dinner dishName='Karahi' sweetDish='Gajar ka Halwa' />
+  </div>
   );
 }
 
