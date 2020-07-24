@@ -9,7 +9,7 @@ function App() {
     <hr />
     <Dinner dishName='Biryani' sweetDish='Jaleebi' />
     <hr />
-    <Dinner dishName='Karahi' sweetDish='Gajar ka Halwa' />
+    <Dinner dishName='Karahi' sweetDish='Gajar da Halwa' />
   </div>
   );
 }
